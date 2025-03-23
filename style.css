@@ -1,5 +1,5 @@
 body {
-    background-image: url('./wallpaper.jpg'); /* Ganti dengan path gambar lokal Anda */
+    background-image: url('wallpaper.jpg'); /* Ganti dengan path gambar lokal Anda */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Pastikan body mengisi seluruh tinggi viewport */
@@ -15,6 +15,15 @@ body {
     padding: 20px; /* Ruang di dalam kontainer */
     border-radius: 10px; /* Sudut membulat */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+}
+
+.title {
+    color: white; /* Warna teks putih */
+    border: 2px solid red; /* Border luar berwarna merah */
+    background-color: black; /* Warna latar belakang dalam berwarna hitam */
+    padding: 10px; /* Ruang di dalam judul */
+    border-radius: 5px; /* Sudut membulat untuk border */
+    margin-bottom: 20px; /* Jarak antara judul dan tombol */
 }
 
 .button {
@@ -51,10 +60,4 @@ body {
 }
 
 .button:hover span {
-    padding-right: 3.55em;
-}
-
-.button:hover span:after {
-    opacity: 4;
-    right: 0;
-}
+    padding-right: 3.55em
