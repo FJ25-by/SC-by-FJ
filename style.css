@@ -48,4 +48,5 @@ body {
 table {
     margin: auto; /* Center the table */
     margin-top: 50px; /* Add some space from the top */
+    color: blue;
 }
