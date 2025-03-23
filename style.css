@@ -1,5 +1,5 @@
 body {
-    background-image: url('path/to/your/local/wallpaper.jpg'); /* Ganti dengan path gambar lokal Anda */
+    background-image: url('./wallpaper.jpg'); /* Ganti dengan path gambar lokal Anda */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Pastikan body mengisi seluruh tinggi viewport */
@@ -15,28 +15,6 @@ body {
     padding: 20px; /* Ruang di dalam kontainer */
     border-radius: 10px; /* Sudut membulat */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
-    position: relative; /* Untuk posisi relatif pada elemen pseudo */
-}
-
-.title {
-    color: white; /* Warna teks putih */
-    position: relative; /* Untuk posisi relatif pada elemen pseudo */
-    z-index: 1; /* Pastikan teks berada di atas latar belakang */
-    padding: 10px; /* Ruang di dalam judul */
-    margin-bottom: 20px; /* Jarak antara judul dan tombol */
-}
-
-.title::before {
-    content: ""; /* Membuat elemen pseudo */
-    position: absolute; /* Posisi absolut untuk menempatkan di belakang teks */
-    top: 0; /* Menempatkan di atas */
-    left: 0; /* Menempatkan di kiri */
-    right: 0; /* Menempatkan di kanan */
-    bottom: 0; /* Menempatkan di bawah */
-    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang hitam setengah transparan */
-    border: 2px solid red; /* Border luar berwarna merah */
-    border-radius: 5px; /* Sudut membulat untuk border */
-    z-index: 0; /* Pastikan latar belakang berada di belakang teks */
 }
 
 .button {
