@@ -2,19 +2,6 @@ body {
     background-image: url('./wallpaper.jpg'); /* Ganti dengan path gambar lokal Anda */
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Pastikan body mengisi seluruh tinggi viewport */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0; /* Menghilangkan margin default */
-}
-
-.container {
-    text-align: center; /* Mengatur teks di dalam kontainer menjadi rata tengah */
-    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang putih semi-transparan */
-    padding: 20px; /* Ruang di dalam kontainer */
-    border-radius: 10px; /* Sudut membulat */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
 }
 
 .button {
@@ -31,7 +18,6 @@ body {
     padding: 1em;
     transition: all 0.4s;
     cursor: pointer;
-    margin: 10px; /* Jarak antar tombol */
 }
 
 .button span {
@@ -57,4 +43,9 @@ body {
 .button:hover span:after {
     opacity: 4;
     right: 0;
+}
+
+table {
+    margin: auto; /* Center the table */
+    margin-top: 50px; /* Add some space from the top */
 }
