@@ -19,7 +19,7 @@ body {
 }
 
 .title {
-    color: white; /* Warna teks putih */
+    color: red; /* Warna teks putih */
     position: relative; /* Untuk posisi relatif pada elemen pseudo */
     z-index: 1; /* Pastikan teks berada di atas latar belakang */
     padding: 10px; /* Ruang di dalam judul */
